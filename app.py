@@ -24,5 +24,6 @@ pages = [
     st.Page("views/players.py", title="Player Analysis", icon="👤"),
     st.Page("views/teams.py", title="Team Analysis", icon="🏆"),
     st.Page("views/positions.py", title="Position Analysis", icon="🎽"),
+    st.Page("views/awards.py", title="Awards", icon="⭐"),
 ]
 st.navigation(pages).run()

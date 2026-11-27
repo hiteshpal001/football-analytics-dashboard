@@ -13,6 +13,7 @@ An interactive multi-page analytics dashboard built with **Python + Streamlit + 
 - **Cascading sidebar filters** – season → team → position → player; every chart updates instantly
 - **Validation** – missing-column check, empty-filter warning, no-match search message
 - **Dark football-green theme** via `.streamlit/config.toml` + custom CSS
+- **Awards** – Player of the Season cards and a Best XI (4-3-3) drawn on a pitch
 
 ## Project structure
 ```
@@ -67,3 +68,5 @@ Python · Streamlit · Pandas · NumPy · Plotly
 ![Player Analysis](screenshots/players.png)
 ![Team Analysis](screenshots/teams.png)
 ![Position Analysis](screenshots/positions.png)
+![Awards](screenshots/awards1.png)
+![Awards](screenshots/awards2.png)
